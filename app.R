@@ -85,7 +85,7 @@ input_groups <- list(
   )
 )
 
-model_bundle <- readRDS("~/Documents/Casino/personalised_model.RDS")
+model_bundle <- readRDS("personalised_model.RDS")
 
 input_data <- model_bundle$collin_varz$result$df
 input_data$vas_neck_w0 <- model_bundle$df$vas_neck_w0
